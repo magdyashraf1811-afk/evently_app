@@ -1,5 +1,12 @@
 {
   "language": "Language",
   "english": "English",
-  "arabic": "Arabic"
+  "arabic": "Arabic",
+  "theme": "Theme",
+  "light_mode": "Light_Mode",
+  "dark_mode": "Dark_mode",
+  "logout": "Logout",
+  "home": "Home",
+  "profile": "Profile",
+  "favorite": "Favorite"
 }
