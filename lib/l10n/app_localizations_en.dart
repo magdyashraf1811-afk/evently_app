@@ -16,4 +16,25 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get arabic => 'Arabic';
+
+  @override
+  String get theme => 'Theme';
+
+  @override
+  String get light_mode => 'Light_Mode';
+
+  @override
+  String get dark_mode => 'Dark_mode';
+
+  @override
+  String get logout => 'Logout';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get profile => 'Profile';
+
+  @override
+  String get favorite => 'Favorite';
 }
