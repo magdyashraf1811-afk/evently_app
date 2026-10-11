@@ -4,17 +4,26 @@ import 'package:flutter/material.dart';
 
 class AppTheme {
   static final ThemeData lightTheme=ThemeData(
+    iconButtonTheme: IconButtonThemeData(style: IconButton.styleFrom(
+      foregroundColor: AppColor.decorationDarkColor
+    )),
+    cardColor: AppColor.decorationDarkColor,
+    scaffoldBackgroundColor: AppColor.lightThemeColor,
+textTheme: TextTheme(headlineMedium: AppStyle.regular20Black,headlineSmall: AppStyle.regular14gray,headlineLarge: AppStyle.regular16Black),
 appBarTheme: AppBarTheme(
   backgroundColor: AppColor.lightThemeColor
 
-) ,
-  bottomNavigationBarTheme: BottomNavigationBarThemeData(
-    backgroundColor: AppColor.whiteColor,selectedItemColor:AppColor.primaryLightThemeColor,
-    unselectedItemColor: AppColor.grayColor,
-    selectedLabelStyle: AppStyle.regular12SelectedLight,
-      unselectedLabelStyle: AppStyle.regular12gray
-  )) ;
+)  );
   static final ThemeData darkTheme=ThemeData(
+      iconButtonTheme: IconButtonThemeData(style: IconButton.styleFrom(
+          foregroundColor: AppColor.decorationLightColor
+      )),
+
+      cardColor: AppColor.decorationLightColor,
+
+      textTheme: TextTheme(headlineMedium: AppStyle.regular20white,headlineSmall: AppStyle.regular14white,headlineLarge: AppStyle.regular16White),
+
+      scaffoldBackgroundColor: AppColor.darkThemeColor,
       appBarTheme: AppBarTheme(
           backgroundColor: AppColor.darkThemeColor
       ),
