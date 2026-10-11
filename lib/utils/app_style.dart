@@ -18,4 +18,35 @@ class AppStyle {
     fontWeight: FontWeight.w400,
     color: AppColor.darkLightThemeColor,
   );
+  static const TextStyle regular14gray = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: AppColor.gray2Color,
+  );
+  static const TextStyle regular14white = TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: AppColor.whiteColor,
+  );
+  static const TextStyle regular20Black = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColor.blackColor,
+  );
+  static const TextStyle regular20white = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColor.whiteColor,
+  );
+  static const TextStyle regular16Black = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: AppColor.blackColor,
+  );
+  static const TextStyle regular16White = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: AppColor.whiteColor,
+  );
+
 }

@@ -1,4 +1,5 @@
 import 'package:events_app/home/home_screen.dart';
+import 'package:events_app/home/tabs/profile_tab/profile_screen.dart';
 import 'package:events_app/providers/app_language_provider.dart';
 import 'package:events_app/providers/app_theme_provider.dart';
 import 'package:events_app/utils/app_routes.dart';
@@ -13,7 +14,6 @@ void main() async {
       providers: [
         ChangeNotifierProvider(create: (context) => AppLanguageProvider()),
         ChangeNotifierProvider(create: (context) => AppThemeProvider())
-
       ],
       child: MyApp()));
 }
@@ -29,7 +29,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       initialRoute: AppRoutes.homeScreen,
       routes:{
-        AppRoutes.homeScreen :(context) => HomeScreen()
+        AppRoutes.profileScreen :(context) => ProfileScreen(),
+        AppRoutes.homeScreen :(context) => HomeScreen(),
+
 
       },
       home: const HomeScreen(),
@@ -38,7 +40,7 @@ class MyApp extends StatelessWidget {
       locale: Locale(languageProvider.appLanguage),
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
-      themeMode: themeProvider.theme,
+      themeMode: themeProvider.appTheme,
 
 
     );
