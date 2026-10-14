@@ -4,11 +4,8 @@ import 'package:events_app/home/tabs/favorite_tab/favorite_tab.dart';
 import 'package:events_app/home/tabs/home_tab/home_tab.dart';
 import 'package:events_app/home/tabs/profile_tab/profile_screen.dart';
 import 'package:events_app/l10n/app_localizations.dart';
-import 'package:events_app/providers/app_theme_provider.dart';
 import 'package:events_app/utils/app_color.dart';
-import 'package:events_app/utils/app_style.dart';
 import 'package:flutter/material.dart';
-import 'package:provider/provider.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -165,6 +162,12 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
         ),
       ),
+      floatingActionButton: FloatingActionButton(onPressed: (){
+        //todo navigation to add event screen
+      },
+        child:  Icon(Icons.add, size: 30 ,color: AppColor.whiteColor,),
+      ),
+      
     );
   }
 

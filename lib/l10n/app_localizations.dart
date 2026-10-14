@@ -98,6 +98,12 @@ abstract class AppLocalizations {
     Locale('en'),
   ];
 
+  /// No description provided for @en.
+  ///
+  /// In en, this message translates to:
+  /// **'En'**
+  String get en;
+
   /// No description provided for @language.
   ///
   /// In en, this message translates to:
@@ -125,13 +131,13 @@ abstract class AppLocalizations {
   /// No description provided for @light_mode.
   ///
   /// In en, this message translates to:
-  /// **'Light_Mode'**
+  /// **'Light Mode'**
   String get light_mode;
 
   /// No description provided for @dark_mode.
   ///
   /// In en, this message translates to:
-  /// **'Dark_mode'**
+  /// **'Dark mode'**
   String get dark_mode;
 
   /// No description provided for @logout.
@@ -157,6 +163,138 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Favorite'**
   String get favorite;
+
+  /// No description provided for @all.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get all;
+
+  /// No description provided for @sport.
+  ///
+  /// In en, this message translates to:
+  /// **'Sport'**
+  String get sport;
+
+  /// No description provided for @meeting.
+  ///
+  /// In en, this message translates to:
+  /// **'Meeting'**
+  String get meeting;
+
+  /// No description provided for @evently.
+  ///
+  /// In en, this message translates to:
+  /// **'Evently'**
+  String get evently;
+
+  /// No description provided for @login.
+  ///
+  /// In en, this message translates to:
+  /// **'Login'**
+  String get login;
+
+  /// No description provided for @register.
+  ///
+  /// In en, this message translates to:
+  /// **'Register'**
+  String get register;
+
+  /// No description provided for @login_with_google.
+  ///
+  /// In en, this message translates to:
+  /// **'Login With Google'**
+  String get login_with_google;
+
+  /// No description provided for @forget_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Forget Password'**
+  String get forget_password;
+
+  /// No description provided for @do_not_have_an_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Don\'t have an Account '**
+  String get do_not_have_an_account;
+
+  /// No description provided for @create_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Create_Account'**
+  String get create_account;
+
+  /// No description provided for @or.
+  ///
+  /// In en, this message translates to:
+  /// **'Or'**
+  String get or;
+
+  /// No description provided for @email.
+  ///
+  /// In en, this message translates to:
+  /// **'Email'**
+  String get email;
+
+  /// No description provided for @password.
+  ///
+  /// In en, this message translates to:
+  /// **'Password'**
+  String get password;
+
+  /// No description provided for @name.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get name;
+
+  /// No description provided for @birthday.
+  ///
+  /// In en, this message translates to:
+  /// **'Birthday'**
+  String get birthday;
+
+  /// No description provided for @welcome_back.
+  ///
+  /// In en, this message translates to:
+  /// **'Welcome Back'**
+  String get welcome_back;
+
+  /// No description provided for @gaming.
+  ///
+  /// In en, this message translates to:
+  /// **'Gaming'**
+  String get gaming;
+
+  /// No description provided for @workShop.
+  ///
+  /// In en, this message translates to:
+  /// **'WorkShop'**
+  String get workShop;
+
+  /// No description provided for @book_club.
+  ///
+  /// In en, this message translates to:
+  /// **'Book Club'**
+  String get book_club;
+
+  /// No description provided for @exhibition.
+  ///
+  /// In en, this message translates to:
+  /// **'Exhibition'**
+  String get exhibition;
+
+  /// No description provided for @holiday.
+  ///
+  /// In en, this message translates to:
+  /// **'Holiday'**
+  String get holiday;
+
+  /// No description provided for @eating.
+  ///
+  /// In en, this message translates to:
+  /// **'Eating'**
+  String get eating;
 }
 
 class _AppLocalizationsDelegate
