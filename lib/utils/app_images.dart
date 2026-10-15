@@ -14,6 +14,9 @@ class AppImages {
   static const String meetingDarkImage ='assets/images/Meeting_dark.png';
   static const String bookClubImage ='assets/images/Book Club.png';
   static const String bookClubDarkImage ='assets/images/Book_Club_dark.png';
+  static const String eventlyLogoLightImage ='assets/images/Black White Minimal Modern Simple Bold Business Mag Logofff 2.png';
+  static const String eventlyLogoDarkImage ='assets/images/Blue White Minimal Modern Simple Bold Business Mag Logo 3.png';
+  static const String googleIcon ='assets/icons/image 6.png';
 
 
 }

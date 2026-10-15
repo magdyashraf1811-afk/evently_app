@@ -104,6 +104,12 @@ abstract class AppLocalizations {
   /// **'All'**
   String get all;
 
+  /// No description provided for @already_have_an_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Already have an account ?'**
+  String get already_have_an_account;
+
   /// No description provided for @arabic.
   ///
   /// In en, this message translates to:
@@ -122,6 +128,12 @@ abstract class AppLocalizations {
   /// **'Book Club'**
   String get book_club;
 
+  /// No description provided for @confirm_your_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Confirm your password'**
+  String get confirm_your_password;
+
   /// No description provided for @create_account.
   ///
   /// In en, this message translates to:
@@ -137,7 +149,7 @@ abstract class AppLocalizations {
   /// No description provided for @do_not_have_an_account.
   ///
   /// In en, this message translates to:
-  /// **'Don\'t have an Account '**
+  /// **'Don\'t have an Account ?'**
   String get do_not_have_an_account;
 
   /// No description provided for @eating.
@@ -164,6 +176,24 @@ abstract class AppLocalizations {
   /// **'English'**
   String get english;
 
+  /// No description provided for @enter_your_email.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your email'**
+  String get enter_your_email;
+
+  /// No description provided for @enter_your_name.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your name'**
+  String get enter_your_name;
+
+  /// No description provided for @enter_your_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter your password'**
+  String get enter_your_password;
+
   /// No description provided for @evently.
   ///
   /// In en, this message translates to:
@@ -185,7 +215,7 @@ abstract class AppLocalizations {
   /// No description provided for @forget_password.
   ///
   /// In en, this message translates to:
-  /// **'Forget Password'**
+  /// **'Forget Password?'**
   String get forget_password;
 
   /// No description provided for @gaming.
@@ -223,6 +253,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Login'**
   String get login;
+
+  /// No description provided for @login_to_your_account.
+  ///
+  /// In en, this message translates to:
+  /// **'Login to your account'**
+  String get login_to_your_account;
 
   /// No description provided for @login_with_google.
   ///
@@ -272,6 +308,30 @@ abstract class AppLocalizations {
   /// **'Register'**
   String get register;
 
+  /// No description provided for @reset_password.
+  ///
+  /// In en, this message translates to:
+  /// **'Reset password'**
+  String get reset_password;
+
+  /// No description provided for @search_for_event.
+  ///
+  /// In en, this message translates to:
+  /// **'Search for event'**
+  String get search_for_event;
+
+  /// No description provided for @sign_up.
+  ///
+  /// In en, this message translates to:
+  /// **'Signup'**
+  String get sign_up;
+
+  /// No description provided for @sign_up_with_google.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign up with Google'**
+  String get sign_up_with_google;
+
   /// No description provided for @sport.
   ///
   /// In en, this message translates to:
@@ -296,11 +356,11 @@ abstract class AppLocalizations {
   /// **'WorkShop'**
   String get workShop;
 
-  /// No description provided for @search_for_event.
+  /// No description provided for @create_your_account.
   ///
   /// In en, this message translates to:
-  /// **'Search for event'**
-  String get search_for_event;
+  /// **'Create your account'**
+  String get create_your_account;
 }
 
 class _AppLocalizationsDelegate

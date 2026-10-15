@@ -1,3 +1,5 @@
+import 'package:events_app/auth/login/login_screen.dart';
+import 'package:events_app/auth/register/register_screen.dart';
 import 'package:events_app/home/home_screen.dart';
 import 'package:events_app/home/tabs/profile_tab/profile_screen.dart';
 import 'package:events_app/providers/app_language_provider.dart';
@@ -27,10 +29,11 @@ class MyApp extends StatelessWidget {
     var themeProvider = Provider.of<AppThemeProvider>(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      initialRoute: AppRoutes.homeScreen,
+      initialRoute: AppRoutes.loginScreen,
       routes:{
-        AppRoutes.profileScreen :(context) => ProfileScreen(),
         AppRoutes.homeScreen :(context) => HomeScreen(),
+        AppRoutes.loginScreen : (context)=> LoginScreen(),
+        AppRoutes.registerScreen : (context)=> RegisterScreen()
 
 
       },

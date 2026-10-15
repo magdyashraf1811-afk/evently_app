@@ -43,6 +43,11 @@ class AppStyle {
     fontWeight: FontWeight.w400,
     color: AppColor.whiteColor,
   );
+  static const TextStyle medium20white = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w500,
+    color: AppColor.whiteColor,
+  );
   static const TextStyle regular16Black = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w400,
@@ -83,11 +88,50 @@ class AppStyle {
     fontWeight: FontWeight.w400,
     color: AppColor.primaryLightThemeColor,
   );
+  static const TextStyle medium16MainLight = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w500,
+    color: AppColor.primaryLightThemeColor,
+  );
+  static const TextStyle medium16MainDark = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w500,
+    color: AppColor.darkLightThemeColor,
+  );
   static const TextStyle regular16MainDark = TextStyle(
     fontSize: 16,
     fontWeight: FontWeight.w400,
     color: AppColor.darkLightThemeColor,
   );
+  static const TextStyle regular24MainDark = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: AppColor.darkLightThemeColor,
+  );
+  static const TextStyle regular24White = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: AppColor.whiteColor,
+  );
+  static const TextStyle regular20MainDark = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
+    color: AppColor.darkLightThemeColor,
+  );
+  static const TextStyle regular20MainLight = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w700,
+    color: AppColor.primaryLightThemeColor,
+  );
+  static const TextStyle regular24MainLight = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeight.w700,
+    color: AppColor.primaryLightThemeColor,
+  );
+
+
+
+
 
 
 
