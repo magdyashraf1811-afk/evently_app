@@ -19,7 +19,10 @@ class AppTheme {
       headlineMedium: AppStyle.regular20Black,
       headlineSmall: AppStyle.regular14gray,
       headlineLarge: AppStyle.regular16Black,
-      labelLarge: AppStyle.regular16Main
+      labelLarge: AppStyle.regular16Main,
+      labelMedium: AppStyle.regular14Black,
+        labelSmall: AppStyle.regular16MainDark
+
     ),
     appBarTheme: AppBarTheme(
         backgroundColor: AppColor.primaryLightThemeColor),
@@ -36,7 +39,8 @@ class AppTheme {
         selectedItemColor: AppColor.primaryLightThemeColor,
         unselectedItemColor: AppColor.gray2Color,
         selectedLabelStyle: AppStyle.regular12SelectedDark,
-        unselectedLabelStyle: AppStyle.regular12gray
+        unselectedLabelStyle: AppStyle.regular12gray,
+
 
     ),
 
@@ -58,7 +62,10 @@ class AppTheme {
       headlineMedium: AppStyle.regular20white,
       headlineSmall: AppStyle.regular14white,
       headlineLarge: AppStyle.regular16White,
-        labelLarge: AppStyle.regular16White
+        labelLarge: AppStyle.regular16White,
+        labelMedium: AppStyle.regular14white,
+      labelSmall: AppStyle.regular16MainDark
+
 
     ),
 

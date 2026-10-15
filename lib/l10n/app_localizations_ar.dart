@@ -9,101 +9,104 @@ class AppLocalizationsAr extends AppLocalizations {
   AppLocalizationsAr([String locale = 'ar']) : super(locale);
 
   @override
-  String get en => 'Ar';
-
-  @override
-  String get language => 'اللغة';
-
-  @override
-  String get english => 'الإنجليزية';
+  String get all => 'All';
 
   @override
   String get arabic => 'العربية';
 
   @override
-  String get theme => 'المظهر';
-
-  @override
-  String get light_mode => 'Light Mode';
-
-  @override
-  String get dark_mode => 'Dark mode';
-
-  @override
-  String get logout => 'تسجيل الخروج';
-
-  @override
-  String get home => 'الرئيسية';
-
-  @override
-  String get profile => 'الملف الشخصي';
-
-  @override
-  String get favorite => 'المفضلة';
-
-  @override
-  String get all => 'All';
-
-  @override
-  String get sport => 'Sport';
-
-  @override
-  String get meeting => 'Meeting';
-
-  @override
-  String get evently => 'Evently';
-
-  @override
-  String get login => 'Login';
-
-  @override
-  String get register => 'Register';
-
-  @override
-  String get login_with_google => 'Login With Google';
-
-  @override
-  String get forget_password => 'Forget Password';
-
-  @override
-  String get do_not_have_an_account => 'Don\'t have an Account ';
-
-  @override
-  String get create_account => 'Create_Account';
-
-  @override
-  String get or => 'Or';
-
-  @override
-  String get email => 'Email';
-
-  @override
-  String get password => 'Password';
-
-  @override
-  String get name => 'Name';
-
-  @override
   String get birthday => 'Birthday';
-
-  @override
-  String get welcome_back => 'Welcome Back';
-
-  @override
-  String get gaming => 'Gaming';
-
-  @override
-  String get workShop => 'WorkShop';
 
   @override
   String get book_club => 'Book Club';
 
   @override
+  String get create_account => 'Create_Account';
+
+  @override
+  String get dark_mode => 'Dark mode';
+
+  @override
+  String get do_not_have_an_account => 'Don\'t have an Account ';
+
+  @override
+  String get eating => 'Eating';
+
+  @override
+  String get email => 'Email';
+
+  @override
+  String get en => 'Ar';
+
+  @override
+  String get english => 'الإنجليزية';
+
+  @override
+  String get evently => 'Evently';
+
+  @override
   String get exhibition => 'Exhibition';
+
+  @override
+  String get favorite => 'المفضلة';
+
+  @override
+  String get forget_password => 'Forget Password';
+
+  @override
+  String get gaming => 'Gaming';
 
   @override
   String get holiday => 'Holiday';
 
   @override
-  String get eating => 'Eating';
+  String get home => 'الرئيسية';
+
+  @override
+  String get language => 'اللغة';
+
+  @override
+  String get light_mode => 'Light Mode';
+
+  @override
+  String get login => 'Login';
+
+  @override
+  String get login_with_google => 'Login With Google';
+
+  @override
+  String get logout => 'تسجيل الخروج';
+
+  @override
+  String get meeting => 'Meeting';
+
+  @override
+  String get name => 'Name';
+
+  @override
+  String get or => 'Or';
+
+  @override
+  String get password => 'Password';
+
+  @override
+  String get profile => 'الملف الشخصي';
+
+  @override
+  String get register => 'Register';
+
+  @override
+  String get sport => 'Sport';
+
+  @override
+  String get theme => 'المظهر';
+
+  @override
+  String get welcome_back => 'Welcome Back';
+
+  @override
+  String get workShop => 'WorkShop';
+
+  @override
+  String get search_for_event => 'Search for event';
 }

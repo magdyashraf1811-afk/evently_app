@@ -68,6 +68,29 @@ class AppStyle {
     fontWeight: FontWeight.w400,
     color: AppColor.darkThemeColor,
   );
+  static const TextStyle regular20Main = TextStyle(
+    fontSize: 20,
+    fontWeight: FontWeight.w400,
+    color: AppColor.darkThemeColor,
+  );
+  static const TextStyle regular14Black= TextStyle(
+    fontSize: 14,
+    fontWeight: FontWeight.w400,
+    color: AppColor.blackColor,
+  );
+  static const TextStyle regular16MainLight = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: AppColor.primaryLightThemeColor,
+  );
+  static const TextStyle regular16MainDark = TextStyle(
+    fontSize: 16,
+    fontWeight: FontWeight.w400,
+    color: AppColor.darkLightThemeColor,
+  );
+
+
+
 
 
 
